@@ -8,7 +8,7 @@ ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
 	font-family: 'Roboto', sans-serif;
-	background:#fff;
+	background:#f7f6f3;
 }
 body a{
  	transition: 0.5s all;
@@ -17,7 +17,7 @@ body a{
 	-o-transition: 0.5s all;
 }
 .top-header{
-	background:#0089ff;
+	background:#179d5f;
 	padding:10px 0;
 }
 p.m_1{
@@ -104,7 +104,7 @@ li.logo a {
     display: -webkit-inline-box;
 }
 .nav > li > a:hover{
-	color:#17D292;
+	color:#2ae28d;
 }
 .nav li  ul {
     position: absolute;
@@ -128,7 +128,7 @@ li.logo a {
 	font-size:1em;
 	padding: 10px 20px;
 	display: block;
-	color:#055092;
+	color:#0c2907;
 	background:#fff;
 	border-top:1px dotted #d0d0d0;
 	border-left:1px dotted #d0d0d0;
@@ -154,7 +154,7 @@ li.logo a {
 }
 .nav li li a:hover{
 	background:#f8f8f8;
-	color:#13e81a;
+	color:#62c166;
 	border-bottom:none;
 }
 /* Media Quries */
