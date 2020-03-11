@@ -371,7 +371,7 @@ a.block-1:hover{
     margin-bottom: 3em;
 }
 .footer_top{
-	background: url(../images/bg1.gif) no-repeat center top;
+	background: url(../images/) no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -469,7 +469,7 @@ i.twt {
 .copy p a:hover{
 	text-decoration:none;
 }
-/* about */
+/* programs */
 .about{
 	padding:5em 0;
 }
@@ -553,7 +553,7 @@ ul.list_3 h2, .span_2 h2{
 	font-weight:100;
 }
 .about_bottom{
-  background:#17D292;
+  background:#459e20;
   padding: 5em 0;
 }
 .about-grid h3{
@@ -577,7 +577,8 @@ ul.list_3 h2, .span_2 h2{
   text-transform: uppercase;
   font-weight: 100;
 }
-/*--services--*/
+
+/*--portfolio--*/
 .col_1_of_5:first-child, .col_1_of_3:first-child {
   margin-left: 0;
 }
@@ -669,7 +670,11 @@ a.btn.fa.fa-angle-double-right {
 .service_left{
 	padding-left:0;
 }
-/*--sontact--*/
+
+.row {
+    margin-top: 20px;
+}
+/*--contact--*/
 .contact {
 	margin-top: 4em;
 }
