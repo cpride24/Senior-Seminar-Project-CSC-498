@@ -674,6 +674,11 @@ a.btn.fa.fa-angle-double-right {
 .row {
     margin-top: 20px;
 }
+
+.fb {
+    margin-bottom: 30px;
+}
+
 /*--contact--*/
 .contact {
 	margin-top: 4em;
@@ -1230,3 +1235,4 @@ a.btn.fa.fa-angle-double-right {
   font-size: 0.9em;
 }
 }
+
