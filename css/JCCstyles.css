@@ -288,7 +288,7 @@ a.block-1:hover{
   border-color:#17D292;
 }
 .box_2 p{
-	color:#999;
+	color:#8b8b8b;
 	font-size:1.1em;
 	line-height:1.8em;
 }
@@ -304,7 +304,7 @@ a.block-1:hover{
   margin: 1em 0;
 }
 .box_1 p{
-	color:#999;
+	color:#8b8b8b;
 	font-size:1.1em;
 	line-height:1.8em;
 }
@@ -397,7 +397,7 @@ i.fb1{
 }
 .footer_bottom{
 	background:#0c2907;
-	padding:5em 0;
+	padding:3em 0;
 }
 ul#general-info {
   padding: 0;
@@ -469,6 +469,94 @@ i.twt {
 .copy p a:hover{
 	text-decoration:none;
 }
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card-header{
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+/*-- blog --*/
+
+.post-img ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.post-img ul li span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.news-grid h5 {
+    float: left;
+}
+
+.post-img {
+    float: right;
+    margin-top: 5px;
+}
+
+.news-grid h5 a {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.news-grid h5 a:hover,
+.news-grid h5 a:focus {
+    text-decoration: none;
+}
+
+.detail-bottom a h6 {
+    color: rgb(85, 85, 85);
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0px 20px 10px 20px;
+}
+
+.detail-bottom {
+    padding: 2em 0 0;
+    background: rgba(255, 255, 255, 0.87);
+}
+
+.news-grid p {
+    font-size: .9em;
+    padding: 0px 20px 20px 20px;
+    color: rgb(75, 75, 75);
+}
+
+.news-events-agile {
+    background: #00b523;
+    padding: 12px 20px;
+}
+.news-events-agile.event-colo3 {
+    background: #FFC107;
+}
+.news-events-agile.event-colo1 {
+    background: #1cc375;
+}
+    
 /* programs */
 .about{
 	padding:5em 0;
@@ -553,7 +641,7 @@ ul.list_3 h2, .span_2 h2{
 	font-weight:100;
 }
 .about_bottom{
-  background:#459e20;
+  background:#ade36d;
   padding: 5em 0;
 }
 .about-grid h3{
@@ -1235,4 +1323,5 @@ a.btn.fa.fa-angle-double-right {
   font-size: 0.9em;
 }
 }
+
 
