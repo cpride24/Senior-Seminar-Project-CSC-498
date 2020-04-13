@@ -38,6 +38,7 @@ p.m_2{
 /* start h_menu */
 .h_menu4{
 	text-align:center;
+    width: 100%;
 }
 .toggleMenu {
     display: none;
