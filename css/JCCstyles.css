@@ -89,6 +89,7 @@ li.logo a:hover{
 li.logo{
 	background:none;
 	border:none;
+    
 }
 .nav li {
     position: relative;
@@ -557,7 +558,19 @@ i.twt {
 .news-events-agile.event-colo1 {
     background: #1cc375;
 }
-    
+h3.title {
+        font-size: 46px;
+    }
+h3.title img {
+        width: 7%;
+    }
+h3.title {
+    color: #111;
+    font-size: 50px;
+    margin-bottom: 1em;
+    letter-spacing: 1px;
+}
+
 /* programs */
 .about{
 	padding:5em 0;
@@ -767,6 +780,105 @@ a.btn.fa.fa-angle-double-right {
 .fb {
     margin-bottom: 30px;
 }
+/*-- team --*/
+
+.team {
+    background: url(../images/bg2.jpg)no-repeat;
+    background-size: cover;
+    padding-bottom: 3em;
+}
+
+.team h3.title {
+    color: #fff;
+    padding-top: 1em;
+}
+
+.team-top {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.team-text h4 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 0.3em;
+    letter-spacing: 2px;
+    background: rgba(0, 0, 0, 0.56);
+    width: 96%;
+    margin: 0 auto;
+    padding: 13px 0;
+}
+
+.team-text h5 {
+    font-size: 1em;
+    color: #fff;
+    font-family: 'Play', sans-serif;
+    letter-spacing: 1px;
+}
+
+.team-grid img {
+    border: 4px double #fff;
+}
+
+.caption {
+    opacity: 0;
+    top: 0%;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.team-grid:hover .caption {
+    display: block;
+    top: 33%;
+    opacity: 1;
+}
+
+.caption ul {
+    padding: 1em 0 .5em;
+}
+
+.caption ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.caption ul li:nth-child(2) {
+    margin: 0 0.3em;
+}
+
+.caption ul li a i {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    font-size: 1.2em;
+    line-height: 2.2;
+}
+
+.caption ul li a i:hover {
+    transform: rotateY(360deg);
+    transition: .5s all;
+}
+
+.caption ul li a i.f1 {
+    background: #3b5998;
+}
+
+.caption ul li a i.f2 {
+    background: #00aced;
+}
+
+.caption ul li a i.f3 {
+    background: #F44336;
+}
+
+/*-- //team --*/
+
 
 /*--contact--*/
 .contact {
