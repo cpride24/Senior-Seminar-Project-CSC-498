@@ -7,7 +7,7 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Manrope', sans-serif;
 	background:#f7f6f3;
 }
 body a{
@@ -59,6 +59,7 @@ li.logo a:hover{
     list-style: none;
     background:rgb(51, 51, 51);
      *zoom: 1;
+    padding-bottom: 5px;
 }
 .nav:before,
 .nav:after {
@@ -82,7 +83,7 @@ li.logo a:hover{
 	padding: 0px;
 	color: #999;
 	font-size: 1.5em;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin: 0 60px;
 	font-weight: 400;
 }
@@ -104,6 +105,7 @@ li.logo a {
 }
 .nav > li {
     display: -webkit-inline-box;
+    width:  140px;
 }
 .nav > li > a:hover{
 	color:#2ae28d;
@@ -145,7 +147,7 @@ li.logo a {
 	transition: all 0.3s ease-out;
 	width: 100%;
 	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin:0;
 }
 .nav li li li a {
@@ -159,6 +161,14 @@ li.logo a {
 	color:#62c166;
 	border-bottom:none;
 }
+
+div.fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+  float: right;
+}
+
 /* Media Quries */
 @media screen and (max-width: 768px) {
 	.h_logo4{
@@ -169,6 +179,7 @@ li.logo a {
 	.h_menu4{
 		float: none;
 		margin:1% 0 0;
+        
 	}
 	.toggleMenu {
 		padding:5px 10px;
@@ -245,7 +256,7 @@ li.logo a {
 .content_top{
 	background: url(../images/bg.jpg) no-repeat center top;
 	min-height:500px;
-	padding-top:8em;
+	padding-top:4em;
 }
 .heading {
   text-transform:uppercase;
@@ -253,7 +264,7 @@ li.logo a {
   font-weight:600;
   margin:0px 0 55px 0;
   padding: 0 0 0 20px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .text {
   font-size: 18px;
@@ -391,7 +402,7 @@ i.fb1{
 	color: #ff0000;
 	line-height: 2em;
 	text-transform:uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 .fb a:hover{
 	text-decoration:none;
@@ -406,18 +417,29 @@ ul#general-info {
   list-style: none;
   font-size: 1em;
   font-weight: 300;
+  text-decoration: none;
 }
 #general-info li {
   line-height: 26px;
   margin-bottom: 1em;
   font-size: 1em;
-  color: #777;
+  color: rgb(239, 247, 218);
+  text-decoration: none;
 }
 #general-info li a, span.yellow a{
 	color:#fff;
 }
 #general-info i.mobile1{
   font-size:20px;
+}
+
+#general-info li a{
+    color: #FFC107;
+    text-decoration: none;
+}
+#general-info li a:hover{
+    color: #fff84c;
+    text-decoration: none;
 }
 #general-info i {
   color:#17D292;
@@ -430,7 +452,7 @@ ul#general-info {
    font-size: 15px;
 }
 .box_3 h3{
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color:#fff;
 	font-size:2em;
 	text-transform:uppercase;
@@ -443,6 +465,7 @@ ul#general-info {
 }
 .footer-list li.list_top {
    margin-bottom: 2em;
+    color: #ffffff;
 }
 i.twt {
   color: #fff;
@@ -570,7 +593,7 @@ i.twt {
     background: #FFC107;
 }
 .news-events-agile.event-colo3 {
-    background: #3ae595;
+    background: #26bf78;
 }
 h3.title {
         font-size: 46px;
@@ -643,7 +666,7 @@ body {
 	padding:5em 0;
 }
 .wrap-box {
-/* background: url(../images/); */
+background: url(/images/greenline.png);
   padding:1px;
 }
 ul.box_4{
@@ -667,7 +690,7 @@ ul.box_4 li.desc{
 }
 ul.box_4 li.desc h4{
 	margin:0 0 10px 0;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Manrope', sans-serif;
 	font-size:1.5em;
 	color:#000;
 }
@@ -714,7 +737,7 @@ i.arrow{
     line-height: 2em;
 }
 ul.list_3 h2, .span_2 h2{
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size:2em;
 	color:#000;	
 	margin-bottom:2em;
@@ -725,13 +748,16 @@ ul.list_3 h2, .span_2 h2{
   background:#ade36d;
   padding: 5em 0;
 }
+.about_bottom .container{
+    background-color: rgba(0, 0, 0, 0.42);
+}
 .about-grid h3{
 	margin:1em 0;
 }
 .about-grid h3 a {
   color: #fff;
   font-size:1.1em;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Manrope, sans-serif;
 }
 .about-grid p{
 	color:#fff;
@@ -739,7 +765,7 @@ ul.list_3 h2, .span_2 h2{
 	line-height:1.5em;
 }
 .about_bottom h1{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size:3em;
   color: #fff;
   margin-bottom:1em;
@@ -761,7 +787,7 @@ ul.list_3 h2, .span_2 h2{
 }
 .span_1_of_5 h3{
   margin: 0 0 10px 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
 }
 .span_1_of_5 h3 a{
@@ -802,11 +828,12 @@ h2.m_3{
 }
 .box {
   position: relative;
+  padding-left: 10px;
 }
 .box h4{
   color: #fff;
   font-size: 1.7em;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .box p {
   padding-right: 70px;
@@ -837,10 +864,10 @@ h4 + .off1 {
 	color: #ffffff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-	background: #33a6cc;
+	background: #18d668;
 }
 .btn-primary:active, .btn-primary.active {
-	background: #007299;
+	background: #16a763;
 	box-shadow: none;
 }
 .btn-primary.gradient {
@@ -887,7 +914,9 @@ a.btn.fa.fa-angle-double-right {
 .fb {
     margin-bottom: 30px;
 }
-
+.fb ul{
+    list-style-image: url('/images/colorballicon.png');
+}
 /*-- team --*/
 
 .team {
@@ -897,7 +926,7 @@ a.btn.fa.fa-angle-double-right {
 }
 
 .team h3.title {
-    color: #fff;
+    color: #00b445;
     padding-top: 1em;
 }
 
@@ -920,7 +949,7 @@ a.btn.fa.fa-angle-double-right {
 .team-text h5 {
     font-size: 1em;
     color: #fff;
-    font-family: 'Play', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -984,7 +1013,10 @@ a.btn.fa.fa-angle-double-right {
 .caption ul li a i.f3 {
     background: #F44336;
 }
-
+video {
+  width: 100%;
+  height: auto;
+}
 /*-- //team --*/
 
 /*--players--*/
@@ -996,7 +1028,7 @@ a.btn.fa.fa-angle-double-right {
 	margin-top: 4em;
 }
 h1.contact_head {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   color: #000;
   margin-bottom: 1em;
@@ -1274,7 +1306,7 @@ h2.m_3, .about_bottom h1, h1.contact_head {
 }
 }
 @media (max-width:568px){
-p.m_1, p.m_2 {
+p.m_1, p.m_2{
   font-size: 1em;
 }	
 }
@@ -1386,7 +1418,7 @@ h4 + .off1, .contact_left p{
   font-size: 1em;
   margin-top: 0;
 }  
-p.m_1, p.m_2 {
+p.m_1, p.m_2{
   float:none;
   text-align:center;
 }
@@ -1497,6 +1529,7 @@ p.m_1{
 .h_menu4 {
   float: none;
   margin: 10px 0 0 0;
+    
 }
 .content_top {
   padding-top: 2em;
